@@ -21,8 +21,8 @@ for (var n=0; n<200; n++) {
 		let won;
 
 		// let's see the result when we use only 5% of the available options, I don't know how many participants
-    // do these things, this probably vastly overestimates participation
-    let skip = Math.ceil(Math.random() * 20);
+   	 	// do these things, this probably vastly overestimates participation
+    		let skip = Math.ceil(Math.random() * 20);
 		if (skip > 1) return;
 
 		combo.forEach(function(pct) {
